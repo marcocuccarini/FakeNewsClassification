@@ -10,6 +10,9 @@ nltk.download('punkt')
 from newspaper import Article
 
 
+#Dato in input una serie di link estrae le infomazioni come titolo, data, testo, etc e le restiturisce in un dataset
+
+
 def GetNewsFromLink(list_link, lang='it'):
   listTitolo=[]
   listTesto=[]
